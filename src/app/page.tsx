@@ -16,15 +16,15 @@ export default function LandingPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="shift-hover"
-        defaultTextAnimation="background-highlight"
-        borderRadius="rounded"
+        defaultTextAnimation="reveal-blur"
+        borderRadius="soft"
         contentWidth="mediumSmall"
-        sizing="large"
-        background="aurora"
-        cardStyle="layered-gradient"
-        primaryButtonStyle="double-inset"
+        sizing="medium"
+        background="noiseDiagonalGradient"
+        cardStyle="subtle-shadow"
+        primaryButtonStyle="flat"
         secondaryButtonStyle="solid"
-        headingFontWeight="medium"
+        headingFontWeight="semibold"
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
@@ -43,7 +43,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardCarousel
-      background={{ variant: "radial-gradient" }}
+      background={{ variant: "rotated-rays-static" }}
       title="Craftsmanship the Shore trusts. Since 2013."
       description="Decks, fences, joinery, painting, repairs — quoted today, often started tomorrow. Glenfield-based. Servicing the entire North Shore."
       buttons={[
@@ -136,7 +136,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplit
       useInvertedBackground={false}
-      background={{ variant: "gradient-bars" }}
+      background={{ variant: "plain" }}
       tag="Get in touch"
       title="Let's get it done properly."
       description="Request a free, same-day quote. Marc will respond quickly."
