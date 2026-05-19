@@ -51,8 +51,8 @@ export default function LandingPage() {
         { text: "Call 022 329 9055", href: "tel:0223299055" },
       ]}
       mediaItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/close-up-bamboo-with-ornaments_1137-251.jpg", imageAlt: "Finished deck" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/rustic-patio-furniture-house-deck-with-vegetation_23-2150698278.jpg", imageAlt: "Outdoor living" }
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DjlYg1QgpUJkneAkkPsHSOjsBd/uploaded-1779149074585-zf0aff6z.png", imageAlt: "Finished deck" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DjlYg1QgpUJkneAkkPsHSOjsBd/uploaded-1779157472000-z8h0fc3p.png", imageAlt: "Outdoor living" }
       ]}
     />
   </div>
@@ -80,9 +80,9 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={false}
       products={[
-        { id: "p1", brand: "Renovation", name: "Albany Villa Exterior", price: "Featured", rating: 5, reviewCount: "1", imageSrc: "http://img.b2bpic.net/free-photo/restaurant-entrance-with-wood-doors-two-turquoise-chairs-with-plant_140725-2569.jpg" },
-        { id: "p2", brand: "Build", name: "Glenfield Deck & Pergola", price: "Featured", rating: 5, reviewCount: "1", imageSrc: "http://img.b2bpic.net/free-photo/close-up-woodworking-tools-rack-used-carving-wood-surfaces_482257-97763.jpg" },
-        { id: "p3", brand: "Build", name: "Browns Bay Custom Fence", price: "Featured", rating: 5, reviewCount: "1", imageSrc: "http://img.b2bpic.net/free-photo/fashion-bearded-hipster-posing-fence-style-diversity_482257-40662.jpg" }
+        { id: "p1", brand: "Renovation", name: "Albany Villa Exterior", price: "Featured", rating: 5, reviewCount: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DjlYg1QgpUJkneAkkPsHSOjsBd/uploaded-1779149096897-k9lqp08n.png" },
+        { id: "p2", brand: "Build", name: "Glenfield Deck & Pergola", price: "Featured", rating: 5, reviewCount: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DjlYg1QgpUJkneAkkPsHSOjsBd/uploaded-1779149084533-lxqp6l5l.png" },
+        { id: "p3", brand: "Build", name: "Browns Bay Custom Fence", price: "Featured", rating: 5, reviewCount: "1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DjlYg1QgpUJkneAkkPsHSOjsBd/uploaded-1779148839242-2mssm4cd.png" }
       ]}
       title="Cinematic Project Showcase"
       description="High-quality project work demonstrating our commitment to craftsmanship across the Shore."
