@@ -10,15 +10,15 @@
   --accent: #ffffff;
   --background-accent: #ffffff; */
 
-  --background: #0e0e0e;
-  --card: #1a1a1a;
-  --foreground: #f4f1ec;
-  --primary-cta: #c8a35a;
+  --background: #fbfaf8;
+  --card: #f0ede9;
+  --foreground: #3d372e;
+  --primary-cta: #4a6e5a;
   --primary-cta-text: #0e0e0e;
-  --secondary-cta: #0e0e0e;
+  --secondary-cta: #d6d0c6;
   --secondary-cta-text: #f4f1ec;
-  --accent: #2d3a2e;
-  --background-accent: #1a1a1a;
+  --accent: #b8a892;
+  --background-accent: #e6e1d9;
 
   /* text sizing - set by ThemeProvider */
   /* --text-2xs: clamp(0.465rem, 0.62vw, 0.62rem);
